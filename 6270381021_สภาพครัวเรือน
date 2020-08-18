@@ -1,0 +1,283 @@
+[
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ข้อมูลการใช้น้ำอุปโภค",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "(",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column ข้อมูลการใช้น้ำอุปโภค by separator"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ข้อมูลการใช้น้ำบริโภค-แหล่งที่มา",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ซิ้อ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ซื้อ"
+      }
+    ],
+    "description": "Mass edit cells in column ข้อมูลการใช้น้ำบริโภค-แหล่งที่มา"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ข้อมูลการใช้น้ำบริโภค-แหล่งที่มา",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ซือ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ซื้อ"
+      }
+    ],
+    "description": "Mass edit cells in column ข้อมูลการใช้น้ำบริโภค-แหล่งที่มา"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ข้อมูลการใช้น้ำอุปโภค-แหล่งที่มา",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "บ่อน้ำ "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "บ่อน้ำ"
+      }
+    ],
+    "description": "Mass edit cells in column ข้อมูลการใช้น้ำอุปโภค-แหล่งที่มา"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ข้อมูลการใช้น้ำอุปโภค 1",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "มีใช้เป็นช่วงๆ "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "มีใช้เป็นช่วงๆ"
+      }
+    ],
+    "description": "Mass edit cells in column ข้อมูลการใช้น้ำอุปโภค 1"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เช่า",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "5~6"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "5.5"
+      }
+    ],
+    "description": "Mass edit cells in column จำนวนที่ดินทำกิน (ไร่)-เช่า"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2(งาน)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0.5"
+      }
+    ],
+    "description": "Mass edit cells in column จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "25-30"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "27.5"
+      }
+    ],
+    "description": "Mass edit cells in column จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "25~30"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "27.5"
+      }
+    ],
+    "description": "Mass edit cells in column จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3งาน"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0.75"
+      }
+    ],
+    "description": "Mass edit cells in column จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4ไร่2งาน"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4.5"
+      }
+    ],
+    "description": "Mass edit cells in column จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8ไร่2งาน"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8.5"
+      }
+    ],
+    "description": "Mass edit cells in column จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "9ไร่2งาน"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "9.5"
+      }
+    ],
+    "description": "Mass edit cells in column จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column จำนวนที่ดินทำกิน (ไร่)-เป็นเจ้าของ using expression grel:toNumber(value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "จำนวนที่ดินทำกิน (ไร่)-เช่า",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column จำนวนที่ดินทำกิน (ไร่)-เช่า using expression grel:toNumber(value)"
+  }
+]
